@@ -1,0 +1,27 @@
+{
+  "name": "employeetracker",
+  "version": "1.0.0",
+  "description": "keep track of employee within a company",
+  "main": "server.js",
+  "scripts": {
+    "test": "no test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xdonnyt8/EmployeeTracker.git"
+  },
+  "author": "Don Tran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xdonnyt8/EmployeeTracker/issues"
+  },
+  "homepage": "https://github.com/xdonnyt8/EmployeeTracker#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "inquirer": "^7.3.3",
+    "mysql": "^2.18.1"
+  }
+}
